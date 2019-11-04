@@ -1,4 +1,4 @@
-var port = 8080,
+var port = 8000,
 	WebSocketServer = require('ws').Server,
 	wss = new WebSocketServer({ port: port });
 
